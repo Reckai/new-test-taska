@@ -1,0 +1,119 @@
+
+.ukraine-flag{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  background: linear-gradient(to bottom, #0054B1 0%, #005BBB 50%, #F7D000 50%, #F7D000 100%);
+}
+.japan-flag{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.japan-flag::before{
+  content: '';
+  width: 150px;
+  height: 150px;
+  background: #D30000;
+  border-radius: 50%;
+
+}
+.iceland-flag{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  background-color: #FFFFFF;
+  position: relative;
+  
+} 
+.blue-squere1{
+  background-color: #0054B1;
+  height: 75px;
+  width: 72px;
+  position: relative;
+  
+}
+.blue-squere2{
+  background-color: #0054B1;
+  height: 75px;
+  width: 183px;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+.blue-squere3{
+  background-color: #0054B1;
+  height: 75px;
+  width: 72px;
+  position: absolute;
+   bottom: 0%;
+   left: 0%;
+
+  
+}
+.blue-squere4{
+  background-color: #0054B1;
+  height: 75px;
+  width: 183px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  
+}
+.red-stroke1{
+  background-color: #D30000;
+  height: 200px;
+  width: 25px;
+  position: absolute;
+  top:0%;
+  left: 27%;
+}
+
+
+.red-stroke2{
+  background-color: #D30000;
+  height: 25px;
+  width: 300px;
+  position: absolute;
+  top:43%;
+}
+.czech-flag{
+  --ratio: 2/3;
+  --blue: #11457e;
+  --red: #d7141a;
+  --width: 300px;
+  --height: calc(var(--width)*var(--ratio));
+  width: var(--width);
+  height: calc(var(--width)*var(--ratio));
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  background: linear-gradient(to bottom, #fff 50%, var(--red) 50%);
+  position: relative;
+
+   
+}
+
+.czech-flag::after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: calc(var(--height)/2) 0 calc(var(--height)/2) calc(var(--width)/2);
+  border-color: transparent transparent transparent var(--blue);
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
+
+
+ 
